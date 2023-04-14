@@ -1,0 +1,262 @@
+* {
+  font-family: "Jost";
+  background-color: rgb(255, 255, 255);
+}
+html {
+  scroll-behavior: smooth;
+}
+
+li a {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  padding: 10px 10px;
+  font-size: 20px;
+}
+.pip2 {
+  position: relative;
+  left: 900px;
+  text-align: center;
+}
+li a:hover {
+  border-bottom: 2px solid #35348b;
+  color: #35348b;
+}
+
+.pip {
+  display: inline-flex;
+}
+li {
+  display: inline-flex;
+  text-align: center;
+  margin: 15px;
+}
+.about h1 {
+  text-align: center;
+  font-size: 50px;
+}
+.about b {
+  color: #35348b;
+}
+.about p {
+  text-align: center;
+  font-size: 20px;
+  border: 1px solid aliceblue;
+  border-radius: 30px 30px;
+  padding: 20px 20px 20px;
+  background-color: aliceblue;
+  box-shadow: 0 1px 20px rgba(0, 0, 0, 0.2);
+}
+.container img {
+  width: 1500px;
+  height: 600px;
+  margin-top: 10px;
+  margin-left: -7px;
+  z-index: -1;
+}
+
+.bg {
+  background-image: url("teamwork0.png");
+  width: 581px;
+  margin-left: 60px;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 686px;
+  margin-top: 10px;
+}
+.pip img {
+  position: absolute;
+  left: 25px;
+  float: left;
+  width: 308px;
+  height: 74px;
+  top: 30px;
+}
+.bet img {
+  position: absolute;
+  top: 100px;
+  left: 430px;
+  width: 540px;
+  height: 260px;
+}
+header h1 {
+  position: absolute;
+  right: 150px;
+  top: 100px;
+  font-size: 90px;
+}
+header p {
+  position: absolute;
+  right: 180px;
+  top: 430px;
+  font-size: 20px;
+  text-align: center;
+}
+button {
+  position: absolute;
+  right: 340px;
+  top: 550px;
+  size: 100px;
+}
+button {
+  border: 1px solid #fdd512;
+  border-radius: 30px;
+  padding: 20px 50px 20px;
+  text-align: center;
+  font-size: 20px;
+  background-color: #fdd512;
+  color: #35348b;
+}
+button:hover {
+  background-color: #35348b;
+  color: aliceblue;
+  border: 1px solid #35348b;
+}
+header b {
+  color: #35348b;
+}
+.ad img {
+
+  border-radius: 50px;
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.2);
+}
+.ad {
+  margin: auto;
+  width: fit-content;
+}
+.section2 h1 {
+  margin: auto;
+  font-size: 50px;
+  width: fit-content;
+}
+.section2 b {
+  color: #fdd512;
+}
+.cont {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.cont .first-section{
+  border: 1px solid #faf5d6;
+  padding: 20px 30px 10px;
+  margin: 10px;
+  border-radius: 30px;
+  background-color: #faf2c5;
+  text-align: center;
+}
+.cont .second-section{
+  border: 1px solid #faf2c5;
+  padding: 20px 30px 10px;
+  margin: 10px;
+  border-radius: 30px;
+  background-color: #faf2c5;
+  text-align: center;
+ 
+}
+.cont .theerd-section{
+  border: 1px solid #faf2c5;
+  padding: 20px 30px 10px;
+  margin: 10px;
+  border-radius: 30px;
+  background-color: #faf2c5;
+  text-align: center;
+}
+.cont .theerd-section:hover{
+ font-size: 19px;
+ transform: translate(-2%, 5%);
+}
+.cont .second-section:hover{
+  font-size: 19px;
+  transform: translate(-2%, 5%);
+}
+.cont .first-section:hover{
+  font-size: 19px;
+  transform: translate(-2%, 2%);
+  
+ }
+.cont p{
+  background-color: #faf2c5;
+}
+.cont h3{
+  font-size: 30px;
+  background-color: #faf2c5;
+}
+.cont h3:hover{
+ color: #262667; 
+}
+
+.contact {
+  max-width: 90vw;
+  transition: all 0.5s linear;
+}
+.contact input,
+.contact textarea {
+    padding: .2rem 1rem;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    width: 70%;
+    margin-bottom: 1rem;
+    outline: none;
+    background-color: #bfc5cb9c;
+}
+.contact textarea:hover,
+.contact input:hover {
+    box-shadow: 0 1px 10px #0000008a;
+    transform: scale(1.03);
+}
+form{
+  position: relative;
+  right: 50px;
+  left: 250px;
+  top: 90px;
+}
+form .btn{
+  position: relative;
+  top: 40px;
+  right: 250px;
+  left: -630px;
+  background-color: #262667;
+  border:1px solid #35348b;
+  color: aliceblue;
+  float: center;
+}
+form .btn:hover{
+ background-color: aliceblue;
+ border: 1px solid aliceblue;
+ color: #262667;
+}
+iframe {
+  float: center;
+  position: relative;
+  top: 130px;
+  width: 99vw;
+  height: 60vh;
+}
+footer {
+  height: 30rem;
+  margin: auto;
+  background-color: #ffffff;
+  border-radius: 0 0 1rem 1rem;
+  padding: 5rem;
+}
+footer .main-footer{
+  position: absolute;
+  top: 2990px;
+  right: 580px;
+
+}
+footer .main-footer h4{
+  font-size: 40px;
+  text-align: center;
+}
+footer .main-footer p{
+  text-align: center;
+}
+footer .main-footer img{
+  position: relative;
+  right: 60px;
+  left: 70px;
+}
