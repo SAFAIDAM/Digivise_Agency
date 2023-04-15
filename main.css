@@ -187,6 +187,15 @@ header b {
   max-width: 90vw;
   transition: all 0.5s linear;
 }
+.contact h1 b{
+  color:#fdd512;
+}
+.contact h1{
+  color:#262667;
+  font-size: 50px;
+  position: relative;
+  right: -640px;
+}
 .contact input,
 .contact textarea {
   padding: 0.2rem 1rem;
@@ -230,7 +239,7 @@ iframe {
   height: 60vh;
 }
 footer {
-  height: 30rem;
+  height: 10rem;
   margin: auto;
   background-color: #ffffff;
   border-radius: 0 0 1rem 1rem;
@@ -238,7 +247,7 @@ footer {
 }
 footer .main-footer {
   position: absolute;
-  top: 2990px;
+  top: 3100px;
   right: 580px;
 }
 footer .main-footer h4 {
